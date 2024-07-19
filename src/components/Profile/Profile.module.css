@@ -1,0 +1,64 @@
+.profile {
+   border-radius: 10px;
+   max-width: 375px;
+   border: 3px solid #1b1919;
+   background-color: rgb(249, 249, 253);
+   overflow: hidden;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.avatar {
+   border-radius: 50%;
+   background-color: rgb(51, 49, 49);
+   max-width: 150px;
+}
+.infoBox {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   padding: 15px;
+   margin-bottom: 20px;
+}
+.numberBox {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: rgb(211, 210, 210);
+   border-top: 2px solid rgb(87, 78, 78);
+   list-style: none;
+}
+
+.number {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   flex: 1;
+   padding: 10px;
+   gap: 5px;
+   
+}
+.numberCnt {
+   composes: number;
+   border-left: 2px solid rgb(87, 78, 78); 
+   border-right: 2px solid rgb(87, 78, 78);
+}
+/* ================ TEXT */
+.userName {
+   font-size: 25px;
+   font-weight: 800;
+}
+.userInfo {
+composes: userName;
+   font-weight: 500;
+   color: rgb(117, 117, 117);
+}
+.userNumberText {
+   composes: userName;
+   font-weight: 500;
+}
+.userNumber {
+   composes: userName;
+}

@@ -1,0 +1,33 @@
+.transactionTable {
+    width: 687px;
+    border-collapse: collapse;
+    margin:0 auto;
+    border:  2px solid #070707;
+}
+
+.headerRow {
+    background-color: #201f1f;
+    color: #fff;
+}
+
+.headerCell {
+    padding: 10px;
+   text-align: center;
+    border: 2px solid #070707;
+}
+
+.dataRow:nth-child(even) {
+    background-color: #b8b7b7;
+    border: 2px solid #070707;
+}
+
+.dataRow:nth-child(odd) {
+    background-color: #fff;
+}
+
+.dataCell {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #070707;
+    text-transform: capitalize;
+}

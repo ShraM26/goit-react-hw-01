@@ -1,4 +1,4 @@
-// FriendList
+// FriendListItem
 import FriendList from './FriendList/FriendList';
 import friendList from './FriendList/friendList.json';
 // Portfolie
